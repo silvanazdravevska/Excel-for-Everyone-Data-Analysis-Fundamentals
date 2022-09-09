@@ -1,14 +1,14 @@
-# Excel-for-Everyone-Data-Analysis-Fundamentals
+## Excel-for-Everyone-Data-Analysis-Fundamentals
 edX.org
 
-## Course: Excel for Everyone: Data Analysis Fundamentals ##
+### Course: Excel for Everyone: Data Analysis Fundamentals
 Designed for more experienced Excel users to explore the methods to extract knowledge from large amounts of data.
-## Institution: University of British Columbia ##
-## Case Study: Analyzing Stock Market Data ##
-## Level: Intermediate ##
-## Date of completion: 2022-01-22 ##
+### Institution: University of British Columbia
+### Case Study: Analyzing Stock Market Data
+### Level: Intermediate
+### Date of completion: 2022-01-22
 
-# Analyzing Stock Market Data #
+## Analyzing Stock Market Data
 
 The case study makes use of a stock market data set with a six-month sample of trading activity for over 500 public businesses from 2017.
 In addition to the close price and trading volume, the stock market data also includes the daily open high and low values for the equities.
@@ -41,31 +41,26 @@ Together all graph complement what the other is lacking.
 
 #### Data Analysis on the Open and Close Points, High and Low Prices, and Volume ####
 
-*1. Sampling*
-    *Random Sampling* for Open Points, High and Low Prices – Number of randomly selected values from the population – 20 for each
-    *Systematic Random Sample* for Close Points and Volume – Random starting point (Row 22) and a sample interval of 20 with which the sample group is selected from the target 
-     population, giving 3,128 samples for each
-*2. Histogram*
-    1. To show the frequency in bins for the Open and Close Points, High and Low Prices starting from 500, to 2,000, as the max values ~ 1,900
-       Most frequent values under the range of value from 0 - 500, total data points come greater than 61,880 for these 4 columns
-    2. To show the frequency in bins for the Values starting from 100,000 to 300,000,000 as max values = 268,336,455
-       Most frequent values under the range of value from 100,001 – 100,000,000, total data points come = 62,489
-*3. Correlation*
+**1. Sampling**
+1. **Random Sampling** for Open Points, High and Low Prices – Number of randomly selected values from the population – 20 for each
+2. **Systematic Random Sample** for Close Points and Volume – Random starting point (Row 22) and a sample interval of 20 with which the sample group is selected from         the target population, giving 3,128 samples for each
+
+**2. Histogram**
+  1. To show the frequency in bins for the Open and Close Points, High and Low Prices starting from 500, to 2,000, as the max values ~ 1,900.
+Most frequent values under the range of value from 0 - 500, total data points come greater than 61,880 for these 4 columns
+  2. To show the frequency in bins for the Values starting from 100,000 to 300,000,000 as max values = 268,336,455.
+Most frequent values under the range of value from 100,001 – 100,000,000, total data points come = 62,489
+       
+**3. Correlation**
     To determine the relationship between the columns Open and Close Points, High and Low Prices, and Values
 
--------------|---------|---------|---------|---------|---------|
-Correlation  |   Open  |   High  |   Low   |  Close  |  Volume | 
--------------|---------|---------|---------|---------|---------|	
-Open	     |   1,00  | 	 |	   |         |         |
--------------|---------|---------|---------|---------|---------|
-High	     |   1,00  |   1,00	 |	   |         |         | Strong positive
--------------|---------|---------|---------|---------|---------|
-Low	     |   1,00  |   1,00  |  1,00   | 	     |         | Strong positive
--------------|---------|---------|---------|---------|---------|
-Close	     |   1,00  |   1,00  |  1,00   |   1,00  |         | Strong positive
--------------|---------|---------|---------|---------|---------|
-Volume	     |   -0,15 |   -0,15 |  -0,15  |   -0,15 |  1,00   | Weak negative
--------------|---------|---------|---------|---------|---------|
+Correlation  |   Open  |   High  |   Low   |  Close  |  Volume |                   |
+-------------|---------|---------|---------|---------|---------|-------------------|
+Open	       |   1,00  | 	      |	       |         |         |                   |
+High	       | **1,00**|   1,00	|	       |         |         |**Strong positive**|
+Low	       | **1,00**| **1,00**|  1,00   | 	     |         |**Strong positive**|
+Close	       | **1,00**| **1,00**|**1,00** |   1,00  |         |**Strong positive**|
+Volume	    |  *-0,15*|  *-0,15*| *-0,15* |  *-0,15*|  1,00   | *Weak negative*   |
 
 The Correlation of Strong Positive means a strong relationship, so when one variable increases, the other increases. 
 The Correlation of Weak Negative means that while one variable decreases, the other increases at the same time.
